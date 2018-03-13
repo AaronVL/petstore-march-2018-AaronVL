@@ -1,0 +1,50 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+
+.brand {
+  font-family:'Satisfy', cursive;
+  color: #fd837e; //base orange
+  font-size: 24px;
+}
+
+.logo{
+  height: 92px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: transparent;
+  color: #69b1e4; //Powder Blue
+  font-size: 20px;
+}
+
+.nav-pills>li>a {
+  color: #69b1e4;
+  font-size: 20px;
+}
+
+/* Jumbotron Styles Start */
+
+.jumbotron{
+  background-image: url('../img/hero.jpg');
+  height: 475px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron>p {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 36px;
+}
+
+/* Jumbotron Styles End */
