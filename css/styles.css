@@ -57,3 +57,12 @@ body{
 }
 
 /* Jumbotron Styles End */
+
+
+/* Thumbnail Styles Start */
+
+.thumbnail{
+  background-color:#ECF0F3;
+}
+
+/* Thumbnail Styles End */
