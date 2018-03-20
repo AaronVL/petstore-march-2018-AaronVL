@@ -72,13 +72,24 @@ body{
 
 /* Footer Styles Start */
 
-footer{
-  background-color: #221E1F;
+footer {
+  padding-top: 40px;
+}
+
+footer, footer a, footer a:hover {
+  background-color: #231F20;
+  color: #B9BABB;
+  text-decoration: none;
 }
 
 footer .logo{
   position: relative;
-  left: -55px;
+  left: -45px; /* Only available when position isnt static */
+}
+
+.middle {
+  border-left: 1px solid #313030;
+  border-right: 1px solid #313030;
 }
 
 
